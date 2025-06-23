@@ -12,7 +12,8 @@ import re
 # import errors
 
 from pathlib import Path
-from pkg_resources._vendor.packaging.version import parse as parse_version
+#from pkg_resources._vendor.packaging.version import parse as parse_version #BROKEN
+from pip._vendor.packaging.version import parse as parse_version
 # from shutil import unpack_archive
 
 from config import FanslyConfig
